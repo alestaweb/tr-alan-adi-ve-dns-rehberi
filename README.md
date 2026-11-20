@@ -16,6 +16,8 @@ anlatılan, hangi kayıt kuruluşunu seçerseniz seçin sorulması gereken sorul
 Hazırlayan: [Alesta WEB](https://alestaweb.com) — 2004'ten beri haber yazılımı ve web
 yazılımı geliştiriyor.
 
+Son güncelleme: 2026-11-20
+
 ---
 
 ## İçindekiler
@@ -37,6 +39,7 @@ yazılımı geliştiriyor.
 15. Sessizce yanlış giden 12 şey
 16. 20 maddelik kontrol listesi
 17. İlgili rehberler ve resmî kaynaklar
+18. Makaleler
 
 ---
 
@@ -253,6 +256,8 @@ Dikkat edilecekler:
 - DMARC'a `p=none` ile başlayıp raporları izledikten sonra `quarantine`/`reject`'e geçmek
   güvenli bir yoldur.
 
+Ayrıntılı anlatım ve 12 sık hata: [E-postalarınız neden spam klasörüne düşüyor?](docs/eposta-spam-klasorune-dusuyor-12-hata.md)
+
 ---
 
 ## 11. SSL ve CAA kaydı
@@ -388,6 +393,12 @@ açıktır. En iyi koruma ise yine önleyicidir: markanızın önemli uzantılar
 - **Bilgi Teknolojileri ve İletişim Kurumu** — https://www.btk.gov.tr
 - **İnternet Alan Adları Yönetmeliği** ve **5809 sayılı Elektronik Haberleşme Kanunu** — https://mevzuat.gov.tr
 - **Let's Encrypt — 64 günlük sertifika takvimi** — https://letsencrypt.org/2026/10/07/64-day-certs.html
+
+---
+
+## 18. Makaleler
+
+- [E-postalarınız neden spam klasörüne düşüyor? Alan adı sahipleri için 12 hata](docs/eposta-spam-klasorune-dusuyor-12-hata.md) — SPF, DKIM, DMARC, büyük posta sağlayıcılarının gönderen kuralları ve kontrol listesi
 
 ---
 
